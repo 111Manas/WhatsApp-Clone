@@ -1,0 +1,22 @@
+.dropdown{
+  position:absolute;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 1px solid black;
+  background-color:#f6f6f6;
+  top: 85px;
+  left: 25vw;
+  z-index: 1;
+}
+.dropdown > Button {
+  border: 1px solid black;
+  color:white;
+  background-color: black;
+}
+.dropdown > Button :hover{
+  color: black;
+  background-color: white;
+}

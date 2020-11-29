@@ -1,0 +1,80 @@
+.profile{
+  top: 75px;
+  left: 0;
+  transition: all 0.5s ease;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 90%;
+}
+.profileA{
+  z-index: 5;
+  flex: 25%;
+  height: 100%;
+  background-color: #d0cfcf;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.profile-header{
+  align-items: center;
+  padding: 10px 0 0 30px;
+}
+.profile-body{
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.profile-image{
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: flex;
+  flex: none;
+  justify-content: center;
+  }
+.profile-image > .MuiAvatar-root{
+  animation:cubic-bezier(.1,.82,.25,1);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    border-radius: 50%;
+    transform: translateZ(0);
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    visibility: visible;
+  }
+  .name{
+    padding: 10px 0 0 25px;
+    position: relative;
+    flex: none;
+  }
+  .naming{
+    color: rgb(24, 138, 2);
+    margin-bottom: 10px;
+  }
+  .naming > h5{
+    margin: 0;
+  }
+  .name-detail{
+    cursor: text;
+    margin-left: 5px;
+    font-size: 19px;
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid gray;
+  }
+  .name > p{
+    margin: 4px 20px 28px 10px;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(68, 67, 67);
+  }
